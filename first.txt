@@ -1,0 +1,14 @@
+this file is used for documentation of the git practice commands and lessons
+
+1. setting up git and github
+    github profile is created in github and a new repository is created
+    then git is set up in windows by downloading git bash in local system
+
+2. cloning the created repository
+    create a new folder in local system to clone the repository
+    use 'git clone' command followed by https link of the repository copied from the repository UI in github
+
+3. change directory to work in the repository   
+    once git repository is cloned, use 'cd' command to go into the cloned repository 
+    this helps us to work in local system and push changes into git
+    
