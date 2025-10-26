@@ -54,3 +54,7 @@ this file is used for documentation of the git practice commands and lessons
 13. pull request
     - pull request is used to notify the main branch maintainer about the changes made in sub branch 
     and make him merge the changes made in sub branch to main branch
+
+14. delete file
+    - 'rm file_name' is used to delete a file from a branch
+    - after prforming this command follow the same steps add, commit and push to relect the changes in remote system
