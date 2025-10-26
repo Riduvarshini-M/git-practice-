@@ -45,3 +45,8 @@ this file is used for documentation of the git practice commands and lessons
 
 11. push branch created in local system to remote
     - 'git push -u origin branch_name' is used to push branch created in local system using 'git branch branch_name'
+
+12. git merge branch_name   
+    - any changes made in one branch will not reflect in another brancg even after a push
+    - this can be resolved by 'git merge branch_name' to merge content in both branches
+
