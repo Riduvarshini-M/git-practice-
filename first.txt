@@ -1,14 +1,24 @@
 this file is used for documentation of the git practice commands and lessons
 
 1. setting up git and github
-    github profile is created in github and a new repository is created
-    then git is set up in windows by downloading git bash in local system
+    - github profile is created in github and a new repository is created
+    - then git is set up in windows by downloading git bash in local system
 
 2. cloning the created repository
-    create a new folder in local system to clone the repository
-    use 'git clone' command followed by https link of the repository copied from the repository UI in github
+    - create a new folder in local system to clone the repository
+    - use 'git clone' command followed by https link of the repository copied from the repository UI in github
 
 3. change directory to work in the repository   
-    once git repository is cloned, use 'cd' command to go into the cloned repository 
-    this helps us to work in local system and push changes into git
-    
+    - once git repository is cloned, use 'cd' command to go into the cloned repository 
+    - this helps us to work in local system and push changes into git
+
+4. pushing into github
+    -whenever a file is modified in local system or a new file is created then commiting and cpushing the changes into 
+    git is necessary as they help to transfer file from local to remote system
+    - steps to follow(commands):
+        1. git add filename or git add .
+        2. git comit -m "commit message" - here commit message is required
+        3. git pull origin main - this is used to pull all the changes made in the repository to make loca system be up-to-date with the repository
+        this pull statment is very important in a collaborative working environment as the entire team uses same repository and the changes made will affecr in everyone's repository
+        to avoid any over writing of files 'pull' command is used before a 'push'
+        'origin main' is the path from which files are pulled into the system. this path changes when the branch from which the file has to be pulled is changed
