@@ -28,7 +28,20 @@ this file is used for documentation of the git practice commands and lessons
 6. git status
     - git status is used to check the status of the working repository to know which files are modified, which are untracked, and so on 
 
-7. change branch name
-    - 'git branch -M new_branch_name' is used to change the existing branch name
+7. rename branch
+    - 'git branch -M new_branch_name' is used to rename branch name
 
 8. git branch -a
+    - used to get list of branch in github
+
+9. git branch
+    - 'git branch branch_name' is used to create a new branch in local system.
+    - these sub-branches are used to keep track of one's personal work in a team. 
+    - changes made in sub-branch using 'git push origin sub-branch_name' will not ne reflected in main branch
+
+10. create and change into a new branch
+    - 'git checkout -b branch_name' is used to create a new branch and switch into the new branch in repository
+    - git checkout 'branch_name' is used to switch to an existinf branch
+
+11. push branch created in local system to remote
+    - 'git push -u origin branch_name' is used to push branch created in local system using 'git branch branch_name'
