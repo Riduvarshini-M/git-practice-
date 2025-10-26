@@ -22,3 +22,13 @@ this file is used for documentation of the git practice commands and lessons
         this pull statment is very important in a collaborative working environment as the entire team uses same repository and the changes made will affecr in everyone's repository
         to avoid any over writing of files 'pull' command is used before a 'push'
         'origin main' is the path from which files are pulled into the system. this path changes when the branch from which the file has to be pulled is changed
+5. check branch
+    - 'git branch' is used to check the branch we are working in
+
+6. git status
+    - git status is used to check the status of the working repository to know which files are modified, which are untracked, and so on 
+
+7. change branch name
+    - 'git branch -M new_branch_name' is used to change the existing branch name
+
+8. git branch -a
