@@ -17,11 +17,12 @@ this file is used for documentation of the git practice commands and lessons
     git is necessary as they help to transfer file from local to remote system
     - steps to follow(commands):
         1. git add filename or git add .
-        2. git comit -m "commit message" - here commit message is required
+        2. git commit -m "commit message" - here commit message is required
         3. git pull origin main - this is used to pull all the changes made in the repository to make loca system be up-to-date with the repository
         this pull statment is very important in a collaborative working environment as the entire team uses same repository and the changes made will affecr in everyone's repository
         to avoid any over writing of files 'pull' command is used before a 'push'
         'origin main' is the path from which files are pulled into the system. this path changes when the branch from which the file has to be pulled is changed
+        4. git push origin branch_name is used to push changes into the branch
 5. check branch
     - 'git branch' is used to check the branch we are working in
 
